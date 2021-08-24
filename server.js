@@ -22,7 +22,7 @@ require("./models/Message");
 const app = require("./app");
 
 const server = app.listen(process.env.PORT || 8000, () => {
-  console.log("Server listening...");
+  console.log("Server is listening...");
 });
 
 const io = require("socket.io")(server);
